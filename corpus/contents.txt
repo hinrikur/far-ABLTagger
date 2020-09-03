@@ -1,0 +1,14 @@
+PoS tagged corpus of Faroese
+
+The corpus consists of articles from the newspaper Sosialurin.
+
+
+- Tagged corpus:
+  - fo.txt
+  - fo.cleaned.txt
+  - fo.revised-verbs-unchanged.txt	
+  - fo.revised.txt
+- 10 fold split corpus files
+- Original Sosialurin license (2011)
+- tagset-original.pdf 
+- tagset-revised.pdf
