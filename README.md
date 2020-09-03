@@ -10,7 +10,7 @@ Using the ~100.000 token Sosialurin corpus with a revised tagging scheme and an 
 This repo has three folders:
 #### Sosialurin corpus
 
-The [Sosialurin corpus](http://ark.axeltra.com/index.php?type=person|lng=en|id=18), originally compiled in 2004 and revised in 2011 was pre-processed for this project to various degrees and several versions are provided here:
+The [Sosialurin corpus](http://ark.axeltra.com/index.php?type=person|lng=en|id=18), originally compiled in 2004 and revised in 2011, was pre-processed for this project to various degrees and several versions are provided here:
 
 - Whole corpus files:
   - `original.txt` - The corpus unchanged from 2004/2011.
