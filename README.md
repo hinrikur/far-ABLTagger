@@ -13,15 +13,15 @@ This repo has three folders:
 The [Sosialurin corpus](http://ark.axeltra.com/index.php?type=person|lng=en|id=18), originally compiled in 2004 and revised in 2011, was pre-processed for this project to various degrees and several versions are provided here:
 
 - Whole corpus files:
-  - `original.txt` - The corpus unchanged from 2004/2011.
-  - `fo.txt` - Comments removed and whitespace issues.
-  - `fo.cleaned.txt` - Tokenization issues fixed and newlines added.
-  - `fo.revised-verbs-unchanged.txt` - Same as above, with revised tagset except for plural verbs.
-  - `fo.revised.txt` - Fully revised tagset and tokenization.
-- 10 fold splits of three versions of the corpus (for cross validation).
-- Tagset descriptions - Both original and revised.
-- Original licence waiver from 2011.
-- Contents description.
+  - `original.txt` - The corpus unchanged from 2004/2011
+  - `fo.txt` - Comments removed and whitespace issues
+  - `fo.cleaned.txt` - Tokenization issues fixed and newlines added
+  - `fo.revised-verbs-unchanged.txt` - Same as above, with revised tagset except for plural verbs
+  - `fo.revised.txt` - Fully revised tagset and tokenization
+- 10 fold splits of three versions of the corpus (for cross validation)
+- Tagset descriptions - Both original and revised
+- Original license waiver from 2011
+- Description of contents
 
 #### Inflection data
 
