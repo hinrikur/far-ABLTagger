@@ -25,7 +25,7 @@ The [Sosialurin corpus](http://ark.axeltra.com/index.php?type=person|lng=en|id=1
 
 #### Inflection data
 
-As ABLTagger makes use of a morphological database in the [DIM basic format](https://bin.arnastofnun.is/DMII/LTdata/s-format/), an Experimental Database of Faroese Morphology (EDFM) was compiled from various sources and formatted in this manner, in order to use with ABLTagger. This is contained within the file `edfm.csv`.
+As ABLTagger makes use of a morphological database in the [DIM basic format](https://bin.arnastofnun.is/DMII/LTdata/s-format/), an Experimental Database of Faroese Morphology (EDFM) was compiled from various sources and formatted in this manner, in order to use with ABLTagger. The EDFM contains about 1.000.000 inflectional forms in 67,180 individual paradigms. This is contained within the file `edfm.csv`.
 
 The contents of EDFM are described below. The sources of inflectional paradigms were the Faroese dictionary foundation (OBG), the Faroese naming committee (Navnanevndin) and Wiktionary (via [UniMorph](https://unimorph.github.io/)). Additionally paradigms were generated from OBG data using scripts (OBG-gen) and various paradigms, mostly non-inflecting words, were created manually. The OBG and Navnanevndin paradigms were accessed via [Sprotin.fo](www.sprotin.fo)
 
