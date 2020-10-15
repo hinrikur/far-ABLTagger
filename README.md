@@ -7,7 +7,12 @@ Using the ~100.000 token Sosialurin corpus with a revised tagging scheme and an 
 
 
 ## Contents
-This repo has three folders:
+This repo has four folders:
+
+#### far-ABLTagger
+
+The full ABLTagger system ([Steingrímsson et al.](https://github.com/steinst/ABLTagger)), modified for tagging Faroese text. Models and necessary pre-processing scripts included.
+
 #### Sosialurin corpus
 
 The [Sosialurin corpus](http://ark.axeltra.com/index.php?type=person|lng=en|id=18), originally compiled in 2004 and revised in 2011, was pre-processed for this project to various degrees and several versions are provided here:
@@ -45,7 +50,3 @@ The contents of EDFM are described below. The sources of inflectional paradigms 
 #### Scripts used
 
 The various scripts used in all stages of the project are in the `scripts` folder. These are ordered into three groups, into `inflection`, `tagset` and `corpus_stuff`, indicating what the scripts were used for. Other than that, they are not organized specifically
-
-#### Models
-
-The Faroese-trained models, to be used with ABLTagger in tandem with EDFM are kept here.
