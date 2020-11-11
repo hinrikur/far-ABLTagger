@@ -58,14 +58,14 @@ def tag_simple(input, output, tagger):
                     simple_tokens = []
                     g = split_into_sentences(i.strip())
                     for sentence in g:
-                        simple_tokens.append(sentence)
+                        simple_tokens += sentence.split()
                 else:
                     simple_tokens = i.strip().split()
                 if simple_tokens[0][0].isupper() and not simple_tokens[0] in tagger.vw.w2i:
                     simple_tokens[0] = simple_tokens[0][0] + simple_tokens[0][1:]
                 f.write("\n".join([x[0] + "\t" + x[1] for x in tagger.tag_sent(simple_tokens)]) + '\n')
                 f.write("\n")
-                print("\n".join([x[0] + "\t" + x[1] for x in tagger.tag_sent(simple_tokens)]) + '\n')
+                # print("\n".join([x[0] + "\t" + x[1] for x in tagger.tag_sent(simple_tokens)]) + '\n')
 
 
 def tag_augmented(input, output, tagger):
