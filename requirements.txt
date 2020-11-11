@@ -1,0 +1,5 @@
+colored==1.4.2
+Cython==0.29.21
+dyNET==2.1.2
+numpy==1.19.4
+tokenizer==2.4.0
